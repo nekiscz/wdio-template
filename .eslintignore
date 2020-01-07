@@ -1,0 +1,11 @@
+node_modules/
+build/
+
+wdio.conf.js
+
+*.d.ts
+*.orig
+*.less
+*.svg
+*.png
+*.snap

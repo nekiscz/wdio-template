@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "./build",
+    "paths": {
+      "tests": [
+        "./tests/*"
+      ],
+      "src/*": [
+        "./src/*"
+      ]
+    },
+    "types": [
+      "node",
+      "@wdio/sync",
+      "@wdio/mocha-framework"
+    ],
+    "typeRoots": [
+      "./types"
+    ]
+  },
+  "include": [
+    "./src/**/*.ts",
+    "./wdio.conf.js"
+  ]
+}
